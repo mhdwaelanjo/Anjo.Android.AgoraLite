@@ -6,4 +6,22 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+
+
+  <remove-node path="/api/package[@name='io.agora.rtc2.internal']/class[@name='RtcEngineMessage']" />
+  <remove-node path="/api/package[@name='io.agora.base.internal.video']/class[@name='EglBase14']/method[@name='getEglBaseContext' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='io.agora.base.internal.video']/interface[@name='EglBase']/method[@name='getEglBaseContext' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='io.agora.rtc2.video']/class[@name='VideoCaptureCamera']/method[@name='getClosestFramerateRange' and count(parameter)=2 and parameter[1][@type='java.util.List&lt;io.agora.rtc2.video.VideoCapture.FramerateRange&gt;'] and parameter[2][@type='int']]" />
+  <remove-node path="/api/package[@name='io.agora.rtc2.video']/class[@name='VideoCapture']/field[@name='mCaptureFormat']" />
+
+  <remove-node path="/api/package[@name='io.agora.base']/class[@name='TextureBuffer']" />
+  <remove-node path="/api/package[@name='io.agora.base.internal.video']/class[@name='WrappedNativeTextureBuffer']" />
+
+  <remove-node path="/api/package[@name='io.agora.base.internal.video']/class[@name='HardwareVideoEncoder']" />
+
+  <attr name="visibility" path="/api/package[@name='io.agora.spatialaudio.internal']/class[@name='LocalSpatialAudioImpl']/method[@name='release' and count(parameter)=0]" >protected</attr>
+
+  <remove-node path="/api/package[@name='io.agora.base.internal.video']/class[@name='EglBase14.Context']" />
+  <remove-node path="/api/package[@name='io.agora.base.internal.video']/class[@name='WrappedNativeColorSpace']" />
+
 </metadata>
