@@ -6,18 +6,18 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 	<PropertyGroup>
-		<PackageId>Anjo.Android.Agoralite</PackageId>
+		<PackageId>Anjo.Android.AgoraLite</PackageId>
 		<PackageVersion>4.4.1</PackageVersion>
 		<AssemblyVersion>4.4.1</AssemblyVersion>
 		<FileVersion>4.4.1</FileVersion>
 		<Version>4.4.1</Version>
-		<Title>Anjo Android Agora.io Rtc lite SDK</Title>
+		<Title>Anjo Android Agora.io Rtc Lite SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
-		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.Agoralite</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.AgoraLite</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Agora.io Rtc lite SDK</Description>
-		<PackageReleaseNotes>Agora.io Rtc lite SDK v4.4.1</PackageReleaseNotes>
+		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Agora.io Rtc Lite SDK</Description>
+		<PackageReleaseNotes>Agora.io Rtc Lite SDK v4.4.1</PackageReleaseNotes>
 		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
 		<PackageTags>Xamarin.Android, NET MAUI, Agora.io, Agora, MonoDroid, Voice Call, Video Call, Live Streaming</PackageTags>
 		<Summary>Agora is the leading video, voice and live interactive streaming platform, helping developers deliver rich in-app experiences—including embedded voice and video chat, real-time recording, interactive live streaming, and real-time messaging.</Summary>
